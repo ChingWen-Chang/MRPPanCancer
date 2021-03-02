@@ -14,6 +14,7 @@ We determine copy number alteration thresholds according to the set of discrete 
 
 2. Whole Exome Sequencing-based analysis:
 The mutation data (MAF files) based on whole exome sequencing is obtained from the cBioPortal database. The individual MAF files in different cancer types were concatenated into one combined MAF file for different MRPs defect groups for downstream analysis. Driver genes with statistically significant levels of recurrent mutation were determined by Mutation Significance (MutSig). Visualization and summarization of the mutations were performed by custom scripts in R version 3.6.2, primarily utilizing the packages maftools (version 2.4.05).
+
 2.1 Oncoplot and driver gene analysis: 
 	TCGA_mutation_plot.R: 
 	Applies filters for variant selection to TCGA-Pan-Cancer, generates oncoplot and MRP deletion subcohorts (HD-MD, LD, and WT).
